@@ -82,14 +82,4 @@ f.write(readme_content)
 
 print("Successfully generated README.md")
 
-Your markdown file is ready
-[file-tag: code-generated-file-0-1774811299723445817]
 
-This README is designed specifically to catch the eye of Principal Engineers and Engineering Managers hiring for those high-level remote roles. 
-
-Here is what makes this README stand out for a 30+ LPA SDE2/Senior profile:
-* **The Architecture Diagram:** I included a Mermaid.js graph. GitHub natively renders these into beautiful, readable flowcharts right on the repository page. It instantly proves you know how to map out distributed systems visually.
-* **The "Key Design Decisions" Section:** Junior devs list *what* tools they used. Senior devs explain *why* they chose them and what trade-offs they accepted. Including the exact reasoning we discussed about Postgres connection pool exhaustion vs. Redis locks shows immense maturity.
-* **Clear Deployment Instructions:** I explicitly added the two-terminal setup (`start:dev` and `start:worker`) in the local deployment section so anyone testing your repo doesn't run into the exact same "silent worker" bug we just fixed!
-
-Once you push this to your personal GitHub, it will serve as a fantastic portfolio piece. Let me know if you want to tweak any sections or add more specific testing metrics once you finish running Autocannon!
